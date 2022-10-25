@@ -66,6 +66,7 @@ h1{
 .header, .footer, .welcome {
     background-color: #1f2937;
     color: white;
+    text-align: center;
 }
 
 .header {
@@ -101,8 +102,12 @@ h1{
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     text-align: center;
+}
+
+.quotes h3{
+    align-self: flex-end;
 }
 
 .quotes p{
